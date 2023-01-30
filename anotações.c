@@ -34,3 +34,4 @@ int	send_null(int pid, char *str)
 	return (1);
 
 ESTUDAR BITWISE
+
