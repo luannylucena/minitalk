@@ -45,5 +45,22 @@ int main(int argc, char* argv[]
     {
         return (1);
     }
-    
+
+    if (pid == 0)
+    {
+
+    }else{
+        // processo pai.
+        int x;
+        print("What is the result of 3 x 5: ");
+        scanf("%d", &x);
+        if (x == 15)
+        {
+            printf("right!");
+        }
+        
+        }
+    }
+    return (0);
+
 }
