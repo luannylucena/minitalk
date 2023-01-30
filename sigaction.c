@@ -11,6 +11,8 @@
 
 //chame esses bits de novo, no entanto, porque neste segundo membro especificar 
 
+//o sigaction diz quem foi que mandou a msg, diferente do signal normal. So manda o segundo sinal qdo o servidor da a reposta que vc recebeu o primeiro. 
+
 int main(void)
 {
     printf("This is pid %d\n", getpid());
